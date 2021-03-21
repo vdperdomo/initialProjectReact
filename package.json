@@ -1,0 +1,67 @@
+{
+  "name": "initial-project",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.5.0",
+    "@axa-fr/react-oidc-context": "^3.1.6",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.3",
+    "@testing-library/user-event": "^12.6.0",
+    "@types/antd": "^1.0.0",
+    "@types/jest": "^26.0.20",
+    "@types/lodash": "^4.14.168",
+    "@types/moment": "^2.13.0",
+    "@types/node": "^12.19.14",
+    "@types/react": "^16.14.2",
+    "@types/react-dom": "^16.9.10",
+    "@types/react-router-dom": "^5.1.7",
+    "antd": "^4.12.2",
+    "axios": "^0.21.1",
+    "i18next": "^19.9.1",
+    "i18next-browser-languagedetector": "^6.0.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-i18next": "^11.8.9",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "react-spring": "^8.0.27",
+    "typescript": "4.0.5",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "prod": "npm run-script build && serve build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject",
+    "format": "prettier --write src/**/*.ts{,x}",
+    "lint": "tsc --noEmit && eslint src/**/*.ts{,x}",
+    "lint-fix": "tsc --noEmit && eslint src/**/*.ts{,x} --fix"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.6.0",
+    "@typescript-eslint/parser": "^1.6.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-plugin-prettier": "^3.0.1",
+    "node-sass": "^4.14.1",
+    "prettier": "^1.16.4",
+    "react-app-rewire-alias": "^1.0.0",
+    "react-app-rewired": "^2.1.8"
+  }
+}

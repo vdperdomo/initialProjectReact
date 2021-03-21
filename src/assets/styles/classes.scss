@@ -1,0 +1,30 @@
+$values: [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+@each $value in $values {
+    .w-#{$value} {
+        width: $value * 1%;
+    }
+    .h-#{$value} {
+        height: $value * 1vh;
+    }
+}
+
+$positions: [absolute, relative, fixed, sticky];
+@each $position in $positions {
+    .po-#{$position} {
+        position: $position;
+    }
+}
+
+$displays: [block, inline-block, flex, grid];
+@each $display in $displays {
+    .d-#{$display} {
+        display: $display;
+    }
+}
+
+$distributions: [flex-start, flex-end, center, space-between, space-around];
+@each $distribution in $distributions {
+    .jc-#{$distribution} {
+        justify-content: $distribution;
+    }
+}

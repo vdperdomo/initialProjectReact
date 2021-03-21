@@ -1,0 +1,45 @@
+@import "antd/dist/antd.css";
+@import "@assets/styles/variables.scss";
+@import "@assets/styles/classes.scss";
+
+@font-face {
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../ProductSans-Regular.woff');
+}
+
+@font-face {
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../ProductSans-Bold.woff');
+}
+
+body {
+    margin: 0;
+    font-family: $primary-font-family;
+    color: $primary-font-color;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+:global {
+    .ant-form-item-control-input-content input,
+    .ant-select-selection-placeholder,
+    .ant-select-selection-item,
+    .ant-select-item-option-content {
+        font-size: 0.8rem;
+    }
+    .ant-form-item-label {
+        padding: 0 0 0.3rem;
+        label {
+            font-size: 0.8rem;
+        }
+    }
+}

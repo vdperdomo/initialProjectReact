@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@assets/*": [
+        "src/assets/*"
+      ],
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@context/*": [
+        "src/context/*"
+      ],
+      "@i18n/*": [
+        "src/i18n/*"
+      ],
+      "@router/*": [
+        "src/router/*"
+      ],
+      "@services/*": [
+        "src/services/*"
+      ],
+      "@utils/*": [
+        "src/utils/*"
+      ],
+    }
+  }
+}

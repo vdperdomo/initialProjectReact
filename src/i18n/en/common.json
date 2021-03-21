@@ -1,0 +1,16 @@
+{
+    "button": {
+        "continue": "Continue",
+        "back": "Back"
+    },
+    "label": {
+        "optional": "(optional)"
+    },
+    "request": {
+        "loading": "Action in progress"
+    },
+    "autocomplete": {
+        "error": "Sorry, an error has occurred. Please, try again",
+        "no-records": "Sorry, we haven't found any titles for your search, please try another one"
+    }
+}
