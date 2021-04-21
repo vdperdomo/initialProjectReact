@@ -1,4 +1,4 @@
-# Initial Project React
+# Initial React Project 
 
 Initial configuration to create a new react project.
 
